@@ -14,6 +14,11 @@ export class HeaderComponent {
                 id: 1,
                 name: 'Home',
                 link: '/'
+            },
+            {
+                id: 2,
+                name: 'Activity',
+                link: '/activity'
             }
         ]
 

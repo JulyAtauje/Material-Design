@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { PostModule } from './post/post.module';
 import { SharedModule} from './shared/shared.module';
 import { PostAddComponent } from './post/post-add/post-add.component';
 import { LayoutComponent } from './layout/layout.component';

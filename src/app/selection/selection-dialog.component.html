@@ -1,0 +1,12 @@
+
+<h1 mat-dialog-title>{{data.where}}:</h1>
+<div mat-dialog-content>
+    <p>Which kind of food do you want?</p>
+    <mat-form-field>
+      <input matInput [(ngModel)]="data.kindFood">
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Cancel</button>
+    <button mat-button [mat-dialog-close]="data.kindFood" cdkFocusInitial>Ok</button>
+</div>

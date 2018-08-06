@@ -1,0 +1,68 @@
+<mat-grid-list cols="3" rowHeight="3:2">
+  <mat-grid-tile>
+    <a mat-button routerLink="/selection">
+      <i class="material-icons md-96">restaurant</i>
+      <i class="material-icons md-96">fastfood</i>
+      <br>Foods
+    </a>
+  </mat-grid-tile>
+  
+  <mat-grid-tile>
+    <a mat-button routerLink=".">
+      <i class="material-icons md-96">local_bar</i>
+      <i class="material-icons md-96">music_note</i>
+      <br>Drink and Dance
+    </a>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <a mat-button routerLink=".">
+      <i class="material-icons md-96">account_balance</i>
+      <i class="material-icons md-96">location_city</i>
+      <br>Museums
+    </a>  
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <a mat-button routerLink=".">
+      <i class="material-icons md-96">redeem</i>
+      <i class="material-icons md-96">shopping_cart</i>
+      <br>Go Shopping
+    </a> 
+  </mat-grid-tile>
+  <mat-grid-tile>
+      <a mat-button routerLink=".">
+        <i class="material-icons md-96">people</i>
+        <i class="material-icons md-96">chat</i>
+        <br>Visit Friends
+      </a> 
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <a mat-button routerLink=".">
+          <i class="material-icons md-96">mood</i>
+          <i class="material-icons md-96">mic</i>
+          <br>Go to Karaoke
+        </a> 
+      </mat-grid-tile>
+      <mat-grid-tile>
+          <a mat-button routerLink=".">
+            <i class="material-icons md-96">weekend</i>
+            <i class="material-icons md-96">tv</i>
+            <br>At Home
+          </a> 
+        </mat-grid-tile>
+        <mat-grid-tile>
+      <a mat-button routerLink=".">
+        <i class="material-icons md-96">nature_people</i>
+        <i class="material-icons md-96">local_florist</i>
+        <br>Go for a walk
+      </a> 
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <a mat-button routerLink=".">
+          <i class="material-icons md-96">directions_bike</i>
+          <i class="material-icons md-96">pool</i>
+          <br>Do sports
+        </a> 
+      </mat-grid-tile>
+</mat-grid-list>
+
+<p *ngIf="animal">  You chose: <i>{{kindFood}}</i></p>

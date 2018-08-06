@@ -1,0 +1,14 @@
+
+<ol style="margin-top: 20%; margin-left: 30%">
+  <mat-form-field>
+    <input matInput [(ngModel)]="where" placeholder="Where to go?">
+  </mat-form-field>
+  <br><br><br>
+  <button mat-raised-button (click)="openDialog()">
+    <i class="material-icons">local_dining</i>
+  </button>
+  <br><br><br>
+  <p *ngIf="kindFood">
+    You chose: Go to <i>{{where}}</i> and eat <i>{{kindFood}}</i>
+  </p>
+</ol>

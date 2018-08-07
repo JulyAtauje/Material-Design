@@ -8,3 +8,6 @@ mat-grid-tile{
     background: rgb(252, 214, 219);
   }
 
+  mat-checkbox{
+    margin: 0 20px;
+  }

@@ -57,4 +57,16 @@ export interface DialogData {
         secondCtrl: ['', Validators.required] });
     }
   }
-  
+
+  //Museums
+  @Component({
+    selector: 'app-selection-museums',
+    templateUrl: './selection-museums.component.html',
+  })
+  export class SelectionMuseumsComponent {
+    constructor (){}
+    checked = false;
+    checked2 = false;
+    checked3 = false;
+    checked4 = false;
+  }

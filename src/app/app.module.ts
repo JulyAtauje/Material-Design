@@ -13,7 +13,8 @@ import { HeaderComponent } from './header/header.component';
 import { ActivityComponent } from './activity/activity.component';
 import { HomeComponent } from './home/home.component';
 import { SelectionComponent,SelectionDialogComponent,
-         SelectionDrinksComponent } from './selection/selection.component';
+         SelectionDrinksComponent, 
+         SelectionMuseumsComponent} from './selection/selection.component';
 
 const routes: Routes=[
   {
@@ -51,6 +52,10 @@ const routes: Routes=[
       {
         path: 'drinks',
         component: SelectionDrinksComponent,
+      },
+      {
+        path: 'museums',
+        component: SelectionMuseumsComponent,
       }
     ]
   },
@@ -65,7 +70,8 @@ const routes: Routes=[
     HomeComponent,
     SelectionComponent,
     SelectionDialogComponent,
-    SelectionDrinksComponent
+    SelectionDrinksComponent,
+    SelectionMuseumsComponent
   
   ],
   imports: [

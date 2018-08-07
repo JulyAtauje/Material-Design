@@ -1,0 +1,31 @@
+
+    <mat-card>
+    <mat-card-content>
+      <h2 style="text-align: center; size: 20px"><b>Type of Musems</b></h2><br><br>
+      <section>
+        <mat-checkbox [(ngModel)]="checked">Military History</mat-checkbox>
+        <mat-checkbox [(ngModel)]="checked2">Natural History</mat-checkbox>
+        <mat-checkbox [(ngModel)]="checked3">Arts</mat-checkbox>
+        <mat-checkbox [(ngModel)]="checked4">Science</mat-checkbox>
+      </section> 
+    </mat-card-content>
+  </mat-card>
+
+
+  <mat-card>
+    <mat-card-content>
+      <h2><b>Results:</b></h2><br>
+        <div *ngIf="checked">
+            <a href="https://www.tripadvisor.com.pe/Attractions-g294316-Activities-c49-t32-Lima_Lima_Region.html">
+            Best Military History Museums in Lima</a></div>
+        <div *ngIf="checked2">
+            <a href="https://www.tripadvisor.com.pe/Attractions-g294316-Activities-c49-t33-Lima_Lima_Region.html">
+            Best Natural Museums in Lima</a></div>  
+        <div *ngIf="checked3">
+            <a href="https://www.tripadvisor.com.pe/Attractions-g294316-Activities-c49-t28-Lima_Lima_Region.html">
+             Best Arts Museums in Lima</a></div>
+        <div *ngIf="checked4">
+            <a href="https://www.tripadvisor.com.pe/Attractions-g294316-Activities-c49-t35-Lima_Lima_Region.html">
+            Best Science Museums in Lima</a></div> 
+    </mat-card-content>
+  </mat-card>

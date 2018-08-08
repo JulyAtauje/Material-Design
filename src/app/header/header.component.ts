@@ -13,12 +13,20 @@ export class HeaderComponent {
             {
                 id: 1,
                 name: 'Home',
-                link: '/'
+                link: '/',
+                icon: 'home'
             },
             {
                 id: 2,
-                name: 'Activity',
-                link: '/activity'
+                name: 'Activities',
+                link: '/activity',
+                icon: 'insert_invitation'
+            },
+            {
+                id: 3,
+                name: 'My List',
+                link: '/activity',
+                icon: 'format_list_numbered'
             }
         ]
 

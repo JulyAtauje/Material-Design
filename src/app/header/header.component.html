@@ -1,7 +1,9 @@
 <ul class="nav">
     <li class="nav-item" *ngFor="let value of nav">
       <a class="nav-link" routerLink="{{value.link}}">
-        {{value.name}}</a>
+        <i class="material-icons md-32">{{value.icon}}</i>
+          {{value.name}}
+      </a>
     </li>
   </ul>
 
